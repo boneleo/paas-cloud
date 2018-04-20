@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-common-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-common-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-common-zk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-security-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-security-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-common/paascloud-security-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-mdc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-omc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-opc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-tpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-uac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-mdc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-sdk-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-omc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-tpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paascloud-zipkin" charset="UTF-8" />
+  </component>
+</project>

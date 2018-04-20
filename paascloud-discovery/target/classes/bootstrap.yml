@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/qqqlllei/cloud-config-repo.git
+          username:
+          password:
+          search-paths: /*
+    inetutils:
+      ignoredInterfaces:
+        - docker0
+        - veth.*
+#      preferredNetworks:
+#        - 192.168
+encrypt:
+  key-store:
+    location: classpath:/server.jks
+    password: http://paascloud.net
+    alias: paascloud-key-store
+    secret: paascloud

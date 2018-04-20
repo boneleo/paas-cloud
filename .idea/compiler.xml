@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="paascloud-common-base" />
+        <module name="paascloud-common-config" />
+        <module name="paascloud-common-core" />
+        <module name="paascloud-common-util" />
+        <module name="paascloud-common-zk" />
+        <module name="paascloud-discovery" />
+        <module name="paascloud-eureka" />
+        <module name="paascloud-gateway" />
+        <module name="paascloud-generator-mdc" />
+        <module name="paascloud-generator-omc" />
+        <module name="paascloud-generator-opc" />
+        <module name="paascloud-generator-tpc" />
+        <module name="paascloud-generator-uac" />
+        <module name="paascloud-monitor" />
+        <module name="paascloud-provider-mdc" />
+        <module name="paascloud-provider-mdc-api" />
+        <module name="paascloud-provider-omc" />
+        <module name="paascloud-provider-omc-api" />
+        <module name="paascloud-provider-opc" />
+        <module name="paascloud-provider-opc-api" />
+        <module name="paascloud-provider-sdk-api" />
+        <module name="paascloud-provider-tpc" />
+        <module name="paascloud-provider-tpc-api" />
+        <module name="paascloud-provider-uac" />
+        <module name="paascloud-provider-uac-api" />
+        <module name="paascloud-security-app" />
+        <module name="paascloud-security-core" />
+        <module name="paascloud-security-feign" />
+        <module name="paascloud-zipkin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="paascloud-common" target="1.8" />
+      <module name="paascloud-common-base" target="1.8" />
+      <module name="paascloud-common-config" target="1.8" />
+      <module name="paascloud-common-core" target="1.8" />
+      <module name="paascloud-common-util" target="1.8" />
+      <module name="paascloud-common-zk" target="1.8" />
+      <module name="paascloud-discovery" target="1.8" />
+      <module name="paascloud-eureka" target="1.8" />
+      <module name="paascloud-gateway" target="1.8" />
+      <module name="paascloud-generator" target="1.8" />
+      <module name="paascloud-generator-mdc" target="1.8" />
+      <module name="paascloud-generator-omc" target="1.8" />
+      <module name="paascloud-generator-opc" target="1.8" />
+      <module name="paascloud-generator-tpc" target="1.8" />
+      <module name="paascloud-generator-uac" target="1.8" />
+      <module name="paascloud-master" target="1.8" />
+      <module name="paascloud-monitor" target="1.8" />
+      <module name="paascloud-provider" target="1.8" />
+      <module name="paascloud-provider-api" target="1.8" />
+      <module name="paascloud-provider-mdc" target="1.8" />
+      <module name="paascloud-provider-mdc-api" target="1.8" />
+      <module name="paascloud-provider-omc" target="1.8" />
+      <module name="paascloud-provider-omc-api" target="1.8" />
+      <module name="paascloud-provider-opc" target="1.8" />
+      <module name="paascloud-provider-opc-api" target="1.8" />
+      <module name="paascloud-provider-sdk-api" target="1.8" />
+      <module name="paascloud-provider-tpc" target="1.8" />
+      <module name="paascloud-provider-tpc-api" target="1.8" />
+      <module name="paascloud-provider-uac" target="1.8" />
+      <module name="paascloud-provider-uac-api" target="1.8" />
+      <module name="paascloud-security-app" target="1.8" />
+      <module name="paascloud-security-core" target="1.8" />
+      <module name="paascloud-security-feign" target="1.8" />
+      <module name="paascloud-zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

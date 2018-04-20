@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-common.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-common-base/paascloud-common-base.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-common-base/paascloud-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-common-config/paascloud-common-config.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-common-config/paascloud-common-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-common-core/paascloud-common-core.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-common-core/paascloud-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-common-util/paascloud-common-util.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-common-util/paascloud-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-common-zk/paascloud-common-zk.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-common-zk/paascloud-common-zk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-discovery/paascloud-discovery.iml" filepath="$PROJECT_DIR$/paascloud-discovery/paascloud-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-eureka/paascloud-eureka.iml" filepath="$PROJECT_DIR$/paascloud-eureka/paascloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-gateway/paascloud-gateway.iml" filepath="$PROJECT_DIR$/paascloud-gateway/paascloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator.iml" filepath="$PROJECT_DIR$/paascloud-generator/paascloud-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-mdc/paascloud-generator-mdc.iml" filepath="$PROJECT_DIR$/paascloud-generator/paascloud-generator-mdc/paascloud-generator-mdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-omc/paascloud-generator-omc.iml" filepath="$PROJECT_DIR$/paascloud-generator/paascloud-generator-omc/paascloud-generator-omc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-opc/paascloud-generator-opc.iml" filepath="$PROJECT_DIR$/paascloud-generator/paascloud-generator-opc/paascloud-generator-opc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-tpc/paascloud-generator-tpc.iml" filepath="$PROJECT_DIR$/paascloud-generator/paascloud-generator-tpc/paascloud-generator-tpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-generator/paascloud-generator-uac/paascloud-generator-uac.iml" filepath="$PROJECT_DIR$/paascloud-generator/paascloud-generator-uac/paascloud-generator-uac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-master.iml" filepath="$PROJECT_DIR$/paascloud-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-monitor/paascloud-monitor.iml" filepath="$PROJECT_DIR$/paascloud-monitor/paascloud-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider.iml" filepath="$PROJECT_DIR$/paascloud-provider/paascloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-api.iml" filepath="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc/paascloud-provider-mdc.iml" filepath="$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc/paascloud-provider-mdc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-mdc-api/paascloud-provider-mdc-api.iml" filepath="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-mdc-api/paascloud-provider-mdc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-omc/paascloud-provider-omc.iml" filepath="$PROJECT_DIR$/paascloud-provider/paascloud-provider-omc/paascloud-provider-omc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api/paascloud-provider-omc-api.iml" filepath="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api/paascloud-provider-omc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc/paascloud-provider-opc.iml" filepath="$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc/paascloud-provider-opc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api/paascloud-provider-opc-api.iml" filepath="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api/paascloud-provider-opc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-sdk-api/paascloud-provider-sdk-api.iml" filepath="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-sdk-api/paascloud-provider-sdk-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-tpc/paascloud-provider-tpc.iml" filepath="$PROJECT_DIR$/paascloud-provider/paascloud-provider-tpc/paascloud-provider-tpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api/paascloud-provider-tpc-api.iml" filepath="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api/paascloud-provider-tpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/paascloud-provider-uac.iml" filepath="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/paascloud-provider-uac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api/paascloud-provider-uac-api.iml" filepath="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api/paascloud-provider-uac-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-security-app/paascloud-security-app.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-security-app/paascloud-security-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-security-core/paascloud-security-core.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-security-core/paascloud-security-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-common/paascloud-security-feign/paascloud-security-feign.iml" filepath="$PROJECT_DIR$/paascloud-common/paascloud-security-feign/paascloud-security-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paascloud-zipkin/paascloud-zipkin.iml" filepath="$PROJECT_DIR$/paascloud-zipkin/paascloud-zipkin.iml" />
+    </modules>
+  </component>
+</project>

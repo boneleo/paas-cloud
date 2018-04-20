@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-security-app/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider-api/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-security-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-common-config/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-uac-api/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-mdc-api/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-omc-api/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-sdk-api/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-generator/paascloud-generator-omc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-tpc-api/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider-api/paascloud-provider-opc-api/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-uac/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-mdc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-omc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-security-core/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-opc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-provider/paascloud-provider-tpc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-generator/paascloud-generator-uac/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-generator/paascloud-generator-mdc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-common-zk/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-generator/paascloud-generator-opc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-generator/paascloud-generator-tpc/pom.xml" />
+        <option value="$PROJECT_DIR$/paascloud-common/paascloud-common-core/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="10.33.80.107" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19366993" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

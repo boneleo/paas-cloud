@@ -1,0 +1,113 @@
+version: '3.3'
+services:
+  mysql:
+    image: mysql:5.6
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+      - /var/lib/mysql/initdb:/docker-entrypoint-initdb.d
+      - /var/lib/mysql/data:/var/lib/mysql
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    restart: always
+  redis:
+    image: docker.io/redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    restart: always
+    command: redis-server
+  nginx:
+    image: nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+    user: root
+    environment:
+      - NGINX_PORT=80
+    restart: always
+    volumes:
+      - /var/lib/nginx/reverse-proxy.conf:/etc/nginx/conf.d/default.conf
+      - /var/lib/nginx/nginx.conf:/etc/nginx/nginx.conf
+    command: /bin/bash -c "nginx -g 'daemon off;'"
+  zk_server:
+    image: daocloud.io/library/zookeeper:3.3.6
+    restart: always
+    container_name: zookeeper
+    configs:
+      - source: ./zoo.cfg
+        target: /conf/zoo.cfg
+    ports:
+      - "2181:2181"
+    volumes:
+      - /usr/local/volumes/zookeeper/data:/data                                                                                                                                                                               
+#  kafka:
+#    image: wurstmeister/kafka
+#    container_name: kafka
+#    restart: always
+#    ports:
+#      - "9092:9092"
+#    environment:
+#      KAFKA_ADVERTISED_HOST_NAME: 10.33.80.114
+#      KAFKA_ZOOKEEPER_CONNECT: 10.33.80.114:2181
+#      KAFKA_BROKER_ID: 1
+#      TZ: Asia/Shanghai
+#    volumes:
+#      - /var/run/docker.sock:/var/run/docker.sock
+#      - /kafka-data:/kafka/
+#      - /etc/localtime:/etc/localtime:ro
+  rmq-namesrv:
+    image: study/rocketmq-namesrv:4.2.0
+    container_name: rmq-namesrv
+    volumes:
+      - /var/lib/rocketmq/namesrv/logs:/opt/logs # 保留日志到宿主机
+      - /var/lib/rocketmq/namesrv/store:/opt/store
+      - /etc/localtime:/etc/localtime:ro # 修改容器内的时区和宿主机一样
+    ports:
+      - "9876:9876"
+  rmq-broker:
+    image: study/rocketmq-broker:4.2.0
+    container_name: rmq-broker
+    environment:
+      NAMESRV_ADDR: 10.33.80.114:9876
+    volumes:
+      - /var/lib/rocketmq/broker/logs:/opt/logs # 保留日志
+      - /var/lib/rocketmq/broker/store:/opt/store # 保留数据到宿主机
+      - /var/lib/rocketmq/broker/conf/broker.properties:/opt/broker.properties
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "10911:10911"
+      - "10909:10909"
+      - "10912:10912"
+    restart: always
+    command: ./bin/mqbroker -c "/opt/broker.properties"
+
+  rabbit:
+    container_name: rabbit
+    hostname: rabbit
+    image: rabbitmq:3.6.6-management
+    environment:
+      - RABBITMQ_DEFAULT_USER = user
+      - RABBITMQ_DEFAULT_PASS = user
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  gitlab:
+    image: 'gitlab/gitlab-ce:latest'
+    container_name: gitlab
+    restart: always
+    hostname: 'gitlab.example.com'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://gitlab.example.com:9090'
+        gitlab_rails['gitlab_shell_ssh_port'] = 2224
+    ports:
+      - '9090:9090'
+      - '2224:22'
+    volumes:
+      - '/srv/gitlab/config:/etc/gitlab'
+      - '/srv/gitlab/logs:/var/log/gitlab'
+      - '/srv/gitlab/data:/var/opt/gitlab'

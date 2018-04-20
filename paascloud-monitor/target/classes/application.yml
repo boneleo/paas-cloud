@@ -1,0 +1,73 @@
+server:
+  port: ${paascloud.server.monitor.port:8010}
+spring:
+  application:
+    name: paascloud-monitor
+  profiles:
+    active: dev
+  mail:
+    host: smtp.qq.com
+    username: lei861971291@qq.com
+    password: itegxquljhdfbfhi
+#    username: ${paascloud.mail.username}
+#    password: ${paascloud.mail.password}
+    port: 465
+    protocol: smtp
+    test-connection: true
+    default-encoding: UTF-8
+    properties:
+      mail:
+        debug: false
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: 465
+          starttls:
+            enable: true
+            required: true
+  boot:
+    admin:
+      client:
+        metadata:
+          user:
+            name: ${security.user.name}
+            password: ${security.user.password}
+      monitor:
+        period: 60000
+      discovery:
+        enabled: true
+      notify:
+        mail:
+          to: 1091687748@qq.com
+          from: lei861971291@qq.com
+      turbine:
+        clusters: default
+        location: turbine
+      routes:
+        endpoints: env,metrics,dump,jolokia,info,configprops,trace,log  file,refresh,flyway,liquibase,heapdump,loggers,auditevents,hystrix.stream,activiti
+info:
+  owner: paascloud.net@gmail.com
+  version: 1.0-SNAPSHOT
+management:
+  security:
+    enabled: false
+security:
+  user:
+    name: admin
+    password: admin
+  basic:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@paascloud-eureka:8761/eureka/
+    instance:
+      instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+logging:
+  level.root: info
+  path: logs/
+  file: ${spring.application.name}.log
